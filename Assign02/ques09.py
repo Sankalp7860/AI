@@ -1,0 +1,10 @@
+import numpy as np
+print("\n\nQ9\n")
+arr2 =((np.random.rand(8,7)*10)).astype(np.int32)
+max_v = np.max(arr2, axis=0)
+min_v = np.min(arr2, axis=0)
+print(arr2)
+print("Max values are:")
+print("\n",max_v)
+print("Min values are:")
+print("\n",min_v)
